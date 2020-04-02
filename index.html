@@ -1,53 +1,13 @@
- 
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - AZUR Project v0.02 - One page with navbar</title>
+      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Snyfery GitHub - AZUR Project</title> 
-    <style>body, html {
-  height: 100%;
-}
-.bg {
-  /* The image used */
-  background-image: url("https://i.imgur.com/PnrW6BB.jpg");
-
-  /* Full height */
-  height: 100%;
-  
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.col {
-  display: flex;
-  flex-wrap: wrap;
-  height:500px;
-}
-
-.container{
-  opacity:0.85;
-}
-   </style> 
-  </head>
-
- 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-  </head>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  
-  
-<!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
+ 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -56,54 +16,194 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
-  
-  <body>
-  
-  
-  <!-- ######################################################################### -->
-  <!--     BACKGROUND -->
-  <!-- ######################################################################### -->
-  <div class="bg">
-  
-  <!-- ######################################################################### -->
-  <!--     CENTER CONTAINER -->
-  <!-- ######################################################################### -->  
- 
-      <div class="container h-100 align-items-center d-block">
-      <div class="row h-100 align-items-center">
-      <div class="col-1"></div>
-      
-  <!-- ######################################################################### -->
-  <!--     CENTER CONTAINER W/ LOGO & SONGS -->
-  <!-- ######################################################################### -->      
-      
 
-      <div class="col-10 bg-info p-0">
-      <div class="row">
-        <div class="col-sm-7 m-0 p-0">
-        <iframe class="d-block" width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/486751773&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-        </div>
-        
-        <div class="col-sm-5">
-        <dl class="text-dark text-right pr-5 pt-5">
-        <dt><a href="#" class="text-white">Magnetic Fields</a>
-        <dt><a href="#" class="text-white">SUPERCHOKE</a>
-        <dt><a href="#" class="text-white"><span class="badge badge-warning">Remix</span> FLUME - You Know INSTRUMENTAL</a>
-        <dt><a href="#" class="text-white">Lullaby</a>
-        <dt><a href="#" class="text-white"><span class="badge badge-warning">Remix</span> FLUME - Holdin On</a>
-        <dt><a href="#" class="text-white">Rivage</a>
-        <dt><a href="#" class="text-white">Breach</a>
-        <dt><a href="#" class="text-white">Firefly</a>
-        <dt><a href="#" class="text-white">Nightwalk</a>
-        <dt><a href="#" class="text-white">Closer Look</a>
-          </dl>
-        <img src="https://i.imgur.com/n39mfoE.png" class="w-50 float-right p-5">
+
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50" class="bg-info">
+
+<!--Font-->  
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+
+  
+<!-- ######################################################################### -->
+<!-- NAVBAR -->
+<!-- ######################################################################### -->
+    
+  <nav class="navbar navbar-expand-sm bg-info navbar-light fixed-top border-bottom border-dark">
+  <ul class="navbar-nav">
+    <a class="navbar-brand" href="#azr">
+      <img src="https://i.imgur.com/G5ABQPK.png" alt="Logo" style="width:30px;">
+    </a>
+    <li class="nav-item">
+      <a class="nav-link" href="#azr">azr</a>
+    </li>
+    <span class="navbar-text">•</span>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Magnetic Fields</a>
+    </li>
+    <span class="navbar-text">//</span>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">SUPERCHOKE</a>
+    </li>
+    <span class="navbar-text">//</span>
+    <li class="nav-item">
+      <a class="nav-link" href="#lullaby">Lullaby</a>
+    </li>
+    <span class="navbar-text">//</span>
+    <li class="nav-item">
+      <a class="nav-link" href="#rivage">Rivage</a>
+    </li>
+    <span class="navbar-text">//</span>
+    <li class="nav-item">
+      <a class="nav-link" href="#breach">Breach</a>
+    </li>
+    <span class="navbar-text">//</span>
+    <li class="nav-item">
+      <a class="nav-link" href="#firefly">Firefly</a>
+    </li>
+    <span class="navbar-text">//</span>
+    <li class="nav-item">
+      <a class="nav-link" href="#nightwalk">Nightwalk</a>
+    </li>
+    <span class="navbar-text">//</span>
+    <li class="nav-item">
+      <a class="nav-link" href="#closer-look">Closer Look</a>
+    </li>
+    <span class="navbar-text">//</span>
+    <li class="nav-item">
+      <a class="nav-link" href="#paradox">Paradox</a>
+    </li>
+    <span class="navbar-text">•</span>
+    <li class="nav-item">
+      <a class="nav-link" href="#about">About</a>
+    </li>
+  </ul>
+    
+    
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="https://soundcloud.com/azur"><img src="https://cdn4.iconfinder.com/data/icons/social-media-2070/140/_soundcloud-512.png" width="30px"></a>
+    </li>
+    </ul>
+</nav>
+    
+<!-- ######################################################################### -->
+<!-- azr CONTAINER -->
+<!-- ######################################################################### -->    
+    
+<div id="azr" class="jumbotron mt-5 bg-transparent">
+  <div class="row text-center align-middle">
+    <div class="col text-success">
+      <div class="carousel-caption text-success">
+        <p class="lead m-0 p-0">ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR</p>
       </div>
-      <div class="col-1"></div>
-      </div>
-      </div>
-      </div>
-        </div>
+      <img src="https://i.imgur.com/PnrW6BB.jpg" class="float-right mr-5 img-responsive" width="50%">
     </div>
-  </body>
-  </html>
+    </div>
+  </div>
+
+<!-- ######################################################################### -->
+<!-- azr VIDEOS -->
+<!-- ######################################################################### -->
+  
+<div id="lullaby" class="container pt-5">
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BdLGx6wA7gI" allowfullscreen></iframe>
+      </div>
+     </div>
+   </div>
+ </div>
+      
+      
+<div id="rivage" class="container pt-5">
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oxarnRQ2R0g" allowfullscreen width=100%></iframe>
+      </div>
+     </div>
+   </div>
+ </div>    
+
+<div id="breach" class="container pt-5">
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/t_0Dy3BrjUU" allowfullscreen width=80%></iframe>
+      </div>
+     </div>
+   </div>
+ </div>
+      
+      
+      
+<div id="firefly" class="container pt-5">
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/I4MhZaH28ck" allowfullscreen width=80%></iframe>
+      </div>
+     </div>
+   </div>
+ </div>
+      
+      
+      
+<div id="nightwalk" class="container pt-5">
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/swEShdAiiEQ" allowfullscreen width=80%></iframe>
+      </div>
+     </div>
+   </div>
+ </div>
+      
+      
+ <div id="closer-look" class="container pt-5">
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wl3hvpWYU_o" allowfullscreen width=80%></iframe>
+      </div>
+     </div>
+   </div>
+ </div>
+      
+      
+ <div id="paradox" class="container pt-5">
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PqWYJWzKY90" allowfullscreen width=80%></iframe>
+      </div>
+     </div>
+   </div>
+ </div>
+      
+<!-- ######################################################################### -->
+<!-- azr ABOUT -->
+<!-- ######################################################################### -->   
+      
+      
+<div id="about" class="jumbotron pt-5 bg-success m-0  border-top border-dark">
+  <div class="row text-center align-middle">
+    <div class="col text-success">
+        <p class="lead m-0 p-0 text-info">ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR//ΔZUR</p>
+    </div>
+    </div>
+  </div>
+
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
