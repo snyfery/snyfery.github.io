@@ -35,10 +35,20 @@
 <!-- ######################################################################### -->
     
   <nav class="navbar navbar-expand-sm bg-info navbar-light fixed-top border-bottom border-dark">
-  <ul class="navbar-nav">
+
     <a class="navbar-brand" href="#azr">
       <img src="https://i.imgur.com/G5ABQPK.png" alt="Logo" style="width:30px;">
     </a>
+    
+    
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    
+    
+   <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="#azr">azr</a>
     </li>
@@ -83,6 +93,7 @@
       <a class="nav-link" href="#about">About</a>
     </li>
   </ul>
+    </div>
     
     
   <ul class="navbar-nav ml-auto">
@@ -110,7 +121,7 @@
 <!-- azr CONTAINER -->
 <!-- ######################################################################### -->    
     
-<div id="azr" class="jumbotron mt-5 mr-0 bg-transparent">
+<div id="azr" class="container-fluid mt-5 mr-0 bg-transparent">
   <div class="row text-center align-middle">
     <div class="col text-success">
       <div class="carousel-caption text-success">
@@ -234,10 +245,6 @@
     </div>
     </div>
   </div>
-
-</body>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
 </body>
 </html>
