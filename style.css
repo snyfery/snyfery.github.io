@@ -26,3 +26,5 @@ body, html {
   left:10%;
   bottom: initial;
 }
+
+a.anchor{display: block; position: relative; top: -20px; visibility: hidden;}
