@@ -28,3 +28,16 @@ body, html {
 }
 
 a.anchor{display: block; position: relative; top: -20px; visibility: hidden;}
+
+p {
+    display: block;
+    display: -webkit-box;
+    max-width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    line-height: 1.2;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
