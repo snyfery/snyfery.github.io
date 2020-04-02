@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  font-family:Comfortaa !important;
+  font-family:Gotu !important;
 }
 
 .bg-info
@@ -17,7 +17,6 @@ body, html {
 
 .lead{
   font-size:3em;
-  font-family:Oswald !important;
 }
 
 .carousel-caption{
